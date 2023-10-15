@@ -5,8 +5,8 @@ import os
 class parser(object):
     def __init__(self):
         self.name = "training_cloth_segm_u2net_exp1_head"  # Expriment name
-        self.image_folder = "C:\\Users\\19521\\OneDrive\\Desktop\\KHOALUAN\\cloth-segmentation\\output_images_split\\label_head"
-        self.df_path = "C:\\Users\\19521\\OneDrive\\Desktop\\KHOALUAN\\cloth-segmentation\\split_data\\label_head.csv"  # label csv path
+        self.image_folder = "/kaggle/input/cloth-segmentation/label_head"
+        self.df_path = "/kaggle/input/cloth-segmentation/split_data/label_head.csv"
         self.distributed = False  # True for multi gpu training
         self.isTrain = True
 

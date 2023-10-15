@@ -1,0 +1,20 @@
+[
+	{
+		"id": 13,
+		"name": "glasses",
+		"supercategory": "head",
+		"level": 2
+	},
+	{
+		"id": 14,
+		"name": "hat",
+		"supercategory": "head",
+		"level": 2
+	},
+	{
+		"id": 15,
+		"name": "headband, head covering, hair accessory",
+		"supercategory": "head",
+		"level": 2
+	}
+]
